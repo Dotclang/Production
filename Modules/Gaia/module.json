@@ -1,0 +1,13 @@
+{
+    "name": "Gaia",
+    "alias": "gaia",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gaia\\Providers\\GaiaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
