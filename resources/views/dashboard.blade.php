@@ -16,7 +16,8 @@
             <div class="w-1/4 bg-no-repeat bg-cover bg-center inline-block" style="background-image:url(img/sidebar.jpg)">
                 <div class="border-b py-4 flex-row mb-1">
                     <img src="{{ asset('img/1.jpg') }}" class="block rounded-full mx-auto h-24">
-                    <a href="" class="text-gray-100">Edy Ridwan Hutagalung</a>
+                    <a href="" class="text-gray-100 font-semibold items-center">Edy Ridwan Hutagalung</a>
+                    <p class="text-gray-500 font-medium items-center">Web Developer</p>
                 </div>
                 <ul class="flex flex-col mx-2 space-y-6 text-gray-100 shadow">
                     <li class="hover:text-green-400">
