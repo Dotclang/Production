@@ -11,6 +11,10 @@
 |
 */
 
-Route::prefix('gaia')->group(function() {
-    Route::get('/', 'GaiaController@index');
+use Illuminate\Support\Facades\Route;
+
+Route::middleware(['auth'])->group(function () {
+    Route::prefix('gaia')->group(function() {
+        Route::get('/', 'GaiaController@index');
+    });
 });

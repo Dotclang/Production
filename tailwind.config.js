@@ -12,6 +12,10 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage: theme => ({
+                // 'nav-header': "url('/img/header.jpg')",
+            }),
+            // backgroundImage: theme => ({}),
         },
     },
 

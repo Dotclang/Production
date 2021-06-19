@@ -7,14 +7,15 @@
         <title>Module Gaia</title>
 
        {{-- Laravel Mix - CSS File --}}
-       {{-- <link rel="stylesheet" href="{{ mix('css/gaia.css') }}"> --}}
-       <script src="{{ mix('js/gaia.js') }}"></script>
+       <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+       {{-- <script src="{{ Module::asset('gaia:js/app.js') }}"></script> --}}
+
 
     </head>
     <body>
         @yield('content')
 
         {{-- Laravel Mix - JS File --}}
-        {{-- <script src="{{ mix('js/gaia.js') }}"></script> --}}
+        <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>

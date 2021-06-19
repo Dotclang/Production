@@ -1,12 +1,5 @@
 {
-    "/js/app.js": "/js/app.js?id=2d5bd858fcea53087e07",
-    "/css/app.css": "/css/app.css?id=1588885343e27ebb21ef",
-    "/css/style.css": "/css/style.css?id=8ec72fcfdbf27f49184e",
-    "/css/index.css": "/css/index.css?id=aa8580051f56813d2e7b",
-    "/Public/js/gaia.js": "/Public/js/gaia.js",
-    "/js/gaia.js": "/js/gaia.js",
-    "/css/gaia.css": "/css/gaia.css",
-    "/D:/Public/js/gaia.js": "/D:/Public/js/gaia.js",
-    "/../../../../../Public/css/gaia.css": "/../../../../../Public/css/gaia.css",
-    "/Public/css/gaia.css": "/Public/css/gaia.css"
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/font-awesome.css": "/css/font-awesome.css"
 }

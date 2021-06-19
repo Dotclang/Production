@@ -16,13 +16,13 @@ mix.js('resources/js/app.js', 'public/js')
         require('postcss-import'),
         require('tailwindcss'),
         require('autoprefixer'),])
-    .sass('resources/sass/style.scss', 'public/css')
-    .combine(
-        [
-            `public/css/app.css`,
-            `public/css/style.css`,
-        ],
-        `public/css/index.css`)
+    .sass('resources/sass/style.scss', 'public/css/font-awesome.css')
+    // .combine(
+    //     [
+    //         `public/css/app.css`,
+    //         `public/css/style.css`,
+    //     ],
+    //     `public/css/index.css`)
     ;
 if (mix.inProduction()) {
     mix.version();
